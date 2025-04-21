@@ -8,9 +8,9 @@
 
 /* no.2 */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* no.3 */
@@ -42,10 +42,12 @@ header {
     background-color: white;
     color: var(--accent);
     padding: 12px 24px;
-    font-size: 1rem;
-    font-weight: 600;
     border-radius: 30px;
     border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 /* no.5 */
@@ -54,7 +56,7 @@ header {
 }
 
 /* no.6 */
-.about {
+section {
     padding: 60px 20px;
     max-width: 1100px;
     margin: 0 auto;
@@ -75,18 +77,7 @@ header {
 
 /* no.7 */
 .activities {
-    border-top: 1px gray dashed;
-    /* tambahan */
-    padding: 60px 20px; 
-    max-width: 1100px; 
-    margin: 0 auto; 
-    text-align: center; 
-    h2 { 
-        font-size: 2rem; 
-        margin-bottom: 20px; 
-        color: var(--primary); 
-    } 
-    /* tambahan */
+    border-top: 1px dashed gray;
 }
 
 /* no.8 */
@@ -102,7 +93,7 @@ header {
     background-color: white;
     padding: 30px 20px;
     border-radius: 12px;
-    box-shadow: inset;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
     transition: transform 0.3s ease;
 }
 
@@ -115,11 +106,13 @@ header {
 .activity i {
     font-size: 2.5rem;
     color: var(--accent);
+    margin-bottom: 15px;
 } 
 
 /* row 71 */
 .activity h3 {
     font-size: 1.3rem;
+    margin-bottom: 10px;
     color: var(--primary);
 }
 
@@ -128,10 +121,7 @@ footer {
     background-color: #222;
     color: #bbb;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 30px 20px;
     margin-top: 40px;
 }
 
